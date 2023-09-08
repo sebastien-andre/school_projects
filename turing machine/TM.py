@@ -5,7 +5,7 @@ def construct_tm_dictionary(fname):
     newlist = []
     with open(str(fname), 'r') as f:
         file = (f.read()).split('\n')
-    # remove comments in beginning of file
+        
     for line in file:
         if line[0] != '%':
             newlist.append(line.split(','))
