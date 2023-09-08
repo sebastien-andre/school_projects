@@ -106,7 +106,6 @@ def run_TM(tm_dictionary, state, tape, debug):
     # if not, then break
     # dictionary[state][symbol] tells you what to do: this is a tuple
 
-    # find way to change states and modify the tape
     # check for edge cases of if the direction cannot go further left or right
     # check for edge cases of write issues
 
