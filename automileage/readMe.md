@@ -13,6 +13,16 @@ The `driver.py` script offers a simple interface for performing various operatio
 - Determining the number of days between two dates
 - Comparing two dates to check which one comes before or after the other
 
+### Auto Mileage Analysis (`AutoMileageAnalysis.py`)
+
+The `AutoMileageAnalysis.py` script is designed for analyzing automobile mileage data from a `.dat` file. It provides a detailed breakdown of:
+
+- Money spent on gas
+- Gallons of gas filled
+- Miles driven between gas fills
+- Days between gas fills
+- Average miles per gallon (MPG) for each fill-up
+
 
 ## Usage
 
@@ -29,13 +39,3 @@ To analyze your automobile mileage data, ensure you have a .dat file formatted s
 ```bash
 python AutoMileageAnalysis.py car.dat
 ```
-
-### Auto Mileage Analysis (`AutoMileageAnalysis.py`)
-
-The `AutoMileageAnalysis.py` script is designed for analyzing automobile mileage data from a `.dat` file. It provides a detailed breakdown of:
-
-- Money spent on gas
-- Gallons of gas filled
-- Miles driven between gas fills
-- Days between gas fills
-- Average miles per gallon (MPG) for each fill-up
