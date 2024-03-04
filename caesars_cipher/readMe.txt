@@ -1,5 +1,13 @@
-Encodes plain lowercase text into cipher text using the Caesar's Cipher method. It will shift each letter in the alphabet over by a random number. The program then attempts to decode this coded message. It uses the frequency distrubution of the individual letters in normal English text usage. The program determines the frequencies of a-z in the coded text and stores it in a table. Then, the program compares the two frequency distrubution tables and determines the chi-square statistic. It will rotate the table by one shift factor and keep doing this until it has gone through all possible shift factors. The result with the lowest chi-square statistic will then be used as the shift factor to "crack" the message. 
+# Caesar's Cipher Encoder and Decoder
 
-The more words you give it, the more accurate it is. If you only provide a single word like hello, it may guess incorrectly.
+This Python project implements the Caesar's Cipher, an ancient encryption technique, for encoding and decoding messages. It shifts each letter in the plaintext by a random number within the alphabet to produce the ciphertext. The program then employs statistical analysis to crack the encoded message.
 
-Only works with lowercase letters.
+## Features
+
+- **Encoding:** Transforms plaintext messages into encoded ciphertext using a randomly chosen shift factor, ensuring that each encoding is unique.
+- **Decoding:** Attempts to decode the ciphertext without prior knowledge of the shift factor, utilizing the frequency distribution of letters in the English language.
+- **Statistical Analysis:** Employs the chi-square statistic to compare the frequency distribution of letters in the encoded message against expected frequencies in normal English text, identifying the most likely shift factor used for encoding.
+- **Accuracy Improvement with Longer Texts:** The decoding accuracy improves with the length of the input text, as longer texts provide a more representative sample of English letter frequencies.
+
+## Usage
+
