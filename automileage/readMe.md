@@ -13,6 +13,23 @@ The `driver.py` script offers a simple interface for performing various operatio
 - Determining the number of days between two dates
 - Comparing two dates to check which one comes before or after the other
 
+
+## Usage
+
+### Date Manipulation
+
+To use the date manipulation tool, simply run:
+
+```bash
+python driver.py
+```
+### Auto Mileage Analysis
+
+To analyze your automobile mileage data, ensure you have a .dat file formatted similar to the included car1.dat example. Then run:
+```bash
+python AutoMileageAnalysis.py car.dat
+```
+
 ### Auto Mileage Analysis (`AutoMileageAnalysis.py`)
 
 The `AutoMileageAnalysis.py` script is designed for analyzing automobile mileage data from a `.dat` file. It provides a detailed breakdown of:
