@@ -25,9 +25,15 @@ To run the Turing Machine simulator, execute the `tm.py` script with the TM inst
 ### Examples
 
 - **Standard Mode:**
-  bash```python tm.py equal.tm abaab```
+  
+  bash```
+  python tm.py equal.tm abaab
+  ```
 - **Debug Mode:**
-  bash```python tm.py -d equal.tm abaab```
+  
+  bash```
+  python tm.py -d equal.tm abaab
+  ```
 
 In debug mode, the program will pause after each step, allowing you to press Enter to continue to the next step. This mode provides a detailed view of the Turing Machine's operations.
 
