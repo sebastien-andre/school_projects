@@ -43,11 +43,3 @@ bash```python votescheme2.py v2.dat```
 2. Counts first-choice votes for each candidate.
 3. Eliminates the candidate(s) with the fewest first-choice votes.
 4. Repeats the process until a clear winner is found or a tie occurs among the remaining candidates.
-
-## Getting Started
-
-To run either script, you will need Python installed on your machine. Navigate to the directory containing the script and the corresponding `.dat` file, then execute the script via the command line with the `.dat` file as an argument.
-
-## License
-
-This project is open-source and available under the MIT License.
