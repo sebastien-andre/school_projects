@@ -26,12 +26,12 @@ To run the Turing Machine simulator, execute the `tm.py` script with the TM inst
 
 - **Standard Mode:**
   
-  bash```
+  ```bash
   python tm.py equal.tm abaab
   ```
 - **Debug Mode:**
   
-  bash```
+  ```bash
   python tm.py -d equal.tm abaab
   ```
 
