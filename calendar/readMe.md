@@ -1,7 +1,6 @@
 # Calendar Display Project
 
-This Python script, `cal.py`, is designed to display the calendar for a specific month and year, provided by the user through command-line arguments. Created by Sebastien Lee for the CSC 1301 Project 1, this simple yet effective tool utilizes Python's built-in `calendar` module to generate and print the calendar in a traditional format.
-
+This Python script, `cal.py`, is designed to display the calendar for a specific month and year, provided by the user through command-line arguments.
 ## Features
 
 - **Custom Calendar Display:** Generates a calendar for any given month and year, displaying it in a traditional format with days aligned under the appropriate weekdays.
